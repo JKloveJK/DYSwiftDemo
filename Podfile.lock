@@ -14,21 +14,27 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - SnapKit (5.7.1)
+  - LookinServer (1.2.8):
+    - LookinServer/Core (= 1.2.8)
+  - LookinServer/Core (1.2.8)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0)
-  - SnapKit (~> 5.7.0)
+  - LookinServer
+  - Masonry
 
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - SnapKit
+    - LookinServer
+    - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: e3c46e06c953df68678586de8833495cf961c377
+PODFILE CHECKSUM: 023ce79f8835fe10f370c7eb2a46282f419872be
 
 COCOAPODS: 1.16.2
